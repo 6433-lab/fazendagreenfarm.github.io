@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!-- LINK DO CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- LINK DO BOOTSTRAP -->
+
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!--LINK DO KIT DO FONTAWSOME (ÍCONES) -->
+
+    <script src="progressbar.min.js"></script>
+    <!--LINK DO PROGESSBAR MINIMIZADO-->
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- LINK DA FONTE COMFORTAA (REGULAR 400 E BOLD 700) -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+        rel="stylesheet"> <!-- LINK DA FONT MONTSERRAT (LIGTH 300, MEDIUM 500 E BOLD 700) -->
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,700&display=swap" rel="stylesheet">  -->
+    <!-- LINK DA FONTE ROBOTO -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- LINK DO JQUERY (JS) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script> <!-- LINK DO JQUERY DO BOOTSTRAP -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script> <!-- LINK DO JAVASCRIPT DO BOOTSTRAP-->
+
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script> <!-- LINK DO PARALLAX -->
+
+    <title>Green Farm | Home</title> <!-- TÍTULO DA PÁGINA -->
+
+    <link rel="sortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- MENU/NAVBAR -->
+    <header>
+        <div class="container" id="nav-container">
+            <!-- O ID CRIA UM ESTILO PRÓPRIO PARA ESSA CLASSE -->
+            <div class="shadow p-3 mb-5 bg-white rounded navbar navbar-expand-lg fixed-top">
+                <!-- CLASSES DO BOOTSTRAP PARA SOMBRA MÉDIA -->
+
+                <a href="#" class="navbar-brand">
+                    <!-- NAVBAR-BRAND = COLOCA A IMAGEM DA LOGO NA BARRA DE NAVEGAÇÃO -->
+                    <img id="logo" src="img/v3.png" alt="GreenFarm_Logo">
+                </a>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="index.html">Home</a>
+                        <a class="nav-item nav-link" id="serviceshome-menu" href="servicos.html">Serviços</a>
+                        <a class="nav-item nav-link" id="about-menu" href="quemsomos.html">Quem Somos</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="contato.html">Contato</a>
+                    </div>
+                </div> <!-- final da div dos títulos do menu -->
+
+            </div> <!-- final da div class shadow e outras de navbar -->
+        </div> <!-- final da div class container -->
+    </header>
+    <!-- MENU/NAVBAR final-->
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarPrincipal">
+        <ul class="navbar-nav">
+
+          <!-- Menu horizontal -->
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./pizzaria.html">A Pizzaria</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./cardapio.html">Cardápio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="page-footer bg-dark">
+
+        <!-- <div class="bg-success">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-instagram white-text"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+
+                <div class="col-md-3 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">The Providers</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
+                    <p class="mt-2" style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Produtos</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px">
+
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">Café</a></li>
+                        <li class="my-2"><a href="#">Soja</a></li>
+                        <li class="my-2"><a href="#">Trigo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Serviços</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">About</a></li>
+                        <li class="my-2"><a href="#">Services</a></li>
+                        <li class="my-2"> <a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Contato</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fas fa-home mr-3"></i> Rio das Flores - RJ</li>
+                        <li class="my-2"><i class="fas fa-envelope mr-3"></i> fazenda.greenfarm@gmail.com</li>
+                        <li class="my-2"><i class="fas fa-phone mr-3"></i> + 55 021 99080-7060</li>
+                        <li class="my-2"><i class="fas fa-print mr-3"></i> @green.f4rm </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">
+            <!-- <p>&copy; Copyright
+          <a href="#">theprovider.com</a></p> -->
+            <p>Designed by Rural Tech</p>
+        </div>
+    </footer>
+    <!-- RODAPÉ final -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,496 @@
+<!-- PÁGINA HOME -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- LINK DO CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- LINK DO BOOTSTRAP -->
+
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!--LINK DO KIT DO FONTAWSOME (ÍCONES) -->
+
+    <script src="progressbar.min.js"></script>
+    <!--LINK DO PROGESSBAR MINIMIZADO-->
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- LINK DA FONTE COMFORTAA (REGULAR 400 E BOLD 700) -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat:wght@300;500;700&display=swap"
+        rel="stylesheet"> <!-- LINK DA FONT MONTSERRAT (LIGTH 300, MEDIUM 500 E BOLD 700) -->
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,700&display=swap" rel="stylesheet">  -->
+    <!-- LINK DA FONTE ROBOTO -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- LINK DO JQUERY (JS) -->
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script> <!-- LINK DO JQUERY DO BOOTSTRAP -->
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script> <!-- LINK DO JAVASCRIPT DO BOOTSTRAP-->
+
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script> <!-- LINK DO PARALLAX -->
+
+    <title>Green Farm | Home</title> <!-- TÍTULO DA PÁGINA -->
+
+    <link rel="sortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- MENU/NAVBAR -->
+    <header>
+
+       
+
+
+        <div class="container" id="nav-container" >
+            <!-- O ID CRIA UM ESTILO PRÓPRIO PARA ESSA CLASSE -->
+            <div class="shadow p-3 mb-5 bg-white rounded navbar navbar-expand-lg fixed-top">
+                <!-- CLASSES DO BOOTSTRAP PARA SOMBRA MÉDIA -->
+
+                <a href="#" class="navbar-brand">
+                    <!-- NAVBAR-BRAND = COLOCA A IMAGEM DA LOGO NA BARRA DE NAVEGAÇÃO -->
+                    <img id="logo" src="img/v3.png" alt="GreenFarm_Logo">
+                </a>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="index.html">Home</a>
+                        <a class="nav-item nav-link" id="serviceshome-menu" href="servicos.html">Serviços</a>
+                        <a class="nav-item nav-link" id="about-menu" href="quemsomos.html">Quem somos</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="contato.html">Contato</a>
+                    </div>
+                </div> <!-- final da div dos títulos do menu -->
+
+            </div> <!-- final da div class shadow e outras de navbar -->
+        </div> <!-- final da div class container -->
+    </header>
+    <!-- MENU/NAVBAR final-->
+
+
+    <!-- BANNER + CARROSSEL -->
+    <main>
+        <div class="container-fluid" style="padding-top: 40px; padding-left: 0px; padding-right: 0px; margin-bottom: 80px;">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <!-- DIV CARROSSEL -->
+
+                <ol class="carousel-indicators">
+                    <!-- CLASSE DOS BULLETS (INDICADORES DO CARROSSEL) -->
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!-- CONTEÚDO DO CARROSSEL -->
+                    <div class="carousel-item active">
+                        <img src="img/BANNER-1.png" class="d-block w-100" alt="MUDAR**">
+                        <!-- CLASSE D-BLOCK = BLOQUEIO EM 100% DA TELA -->
+                        <div class="carousel-caption d-md-block">
+                            <!-- CLASSE DA LEGENDA DO BANNER -->
+                            <!-- <h2> Está procurando produtos de qualidade? </h2>
+                            <p> A Green Farm garante selo de qualidade em todos os alimentos produzidos.</p> -->
+                            <!-- <a href="#" class="main-btn">Ver portfólio</a> -->
+                            <!-- BOTÃO -->
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/BANNER-2.png" class="d-block w-100" alt="Cesta de Alimentos">
+                        <div class="carousel-caption d-md-block">
+                            <!-- <h2> Buscando alimentos livres de agrotóxicos e conservantes? </h2>
+                            <p> Nossa fazenda está capacitada para preparar alimentos 100% saudáveis, saborosos e
+                                nutritivos. </p> -->
+                            <!-- <a href="#" class="main-btn">Entre em contato</a> -->
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="img/BANNER-3.png" class="d-block w-100" alt="MUDAR**">
+                        <div class="carousel-caption d-md-block">
+                            <!-- <h2> Fazenda para confiar de olhos fechados! </h2>
+                            <p> Produção de qualidade a mais de 52 anos. </p> -->
+                            <!-- <a href="#" class="main-btn">Entre em contato</a> -->
+                        </div>
+                    </div>
+                </div> <!-- DIV FINAL CONTEÚDO DO CARROSSEL -->
+
+                <!-- BOTÔES < E > DO CARROSSEL -->
+                <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div> <!-- FINAL DA DIV DO CARROSSEL -->
+        </div>
+    </main>
+    <!-- BANNER + CARROSSEL final-->
+
+
+
+    <!-- OBJETIVO -->
+    <div class="container" style="padding-top: 0px;"> <!-- VERIFICAR O PADDING DOS TEXTOS ABAIXO -->
+        <!-- <h3 class="col md-2 boxer">Objetivos</h3> -->
+        <!-- <button class="main-btn filter-btn" id="dev-btn">Objetivos</button> -->
+        <!-- <div class="col-md-12" id="teste">
+            <h5>Objetivos</h5>
+        </div> -->
+
+
+
+        <div id="call-area">
+            <div class="container">
+                <div class="row">
+                    <h1>Objetivos</h1>
+                    <br>
+                </div>
+                <br>
+                <h6>Na Green Farm você encontra:</h6>
+
+            </div>
+        </div>
+
+
+        <div>
+            <div class="row">
+
+                <div id="box1" class="col-md-3 service-box">
+                    <i class="fas fa-leaf" id="iconfolha"></i>
+                    <h4>Alimentos Orgânicos</h4>
+                    <p>Nossa produção orgânica é totalmente livre de agrotóxicos, propondo o melhor do produto para
+                        o seu consumo.
+                    </p>
+                </div>
+
+                <div id="box2" class="col-md-4 service-box">
+                    <i class="fas fa-award" id="iconselo"></i>
+                    <h4>Qualidade e Segurança</h4>
+                    <p>Entregar com excelência nossos alimentos de forma segura e confiável, para que os produtos
+                        cheguem até você em perfeito estado.
+                    </p>
+                </div>
+
+                <div id="box3" class="col-md-3 service-box">
+                    <i class="fas fa-users" id="iconuser"></i>
+                    <h4>Equipe eficiente</h4>
+                    <p>Funcionários capacitados para atingir suas expectativas e transformá-las reais de maneira
+                        eficaz e profissional.
+                    </p>
+                </div>
+
+            </div>
+        </div><!-- final da div class='row' dos serviços do objetivo -->
+        <!-- final da div class='container' da call-area -->
+
+    </div> <!-- final da div id='call-area' -->
+    <!-- final div class='container' -->
+    <!-- OBJETIVO final-->
+
+
+    <!-- MODELO SLIDE 3 (MDB) -->
+
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+
+                    <!--  
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Nossos Ideais</a>
+                    </li> -->
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="index.html">Felicidade do Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Venda a Granel</a>
+                    </li> -->
+
+                </ul>
+            </div>
+
+            <div class="card-body">
+                <div class="check1">
+                    <img src="img/CHECK1-NOSSOSIDEAIS.png" alt="Imagem Ansiedade" class="imgcheck1" width="388"
+                        style="float: left;">
+
+                </div>
+
+                <br><br><br> <!-- DESCER O TEXTO PARA O MEIO -->
+
+                <div>
+                    <h5 style="text-align: left; font-size: 40px; color: #116b0e; "> <strong> NOSSOS IDEAIS</strong>
+                    </h5>
+                    <hr style="width: 55px; margin-left: 445px; background-color: #F6C915;">
+                    <p style="font-size: 20px; text-align: justify; margin-right: 20px;">
+                        Somos uma empresa diferenciada, esses são alguns temas que nos destacam: Trabalho com
+                        eficiência, Funcionários qualificados, Administração eficiente, Melhores equipamentos para o
+                        processo de produção, Selo de qualidade e Confiabilidade e segurança
+                    </p>
+                </div>
+
+                <br><br><br><br> <!-- DAR ESPAÇO ENTRE OS CARDS  -->
+
+                <div class="check2">
+                    <img src="img/CHECK2-CLIENTEFELIZ.png " alt="Imagem Ansiedade" class="imgcheck2" width="388"
+                        style="float: right;">
+
+
+                </div>
+
+                <br><br><br> <!-- DESCER O TEXTO PARA O MEIO -->
+
+                <div>
+                    <h5 style=" font-size: 40px; color: #116b0e; margin-left: 280px; "> <strong> CLIENTES FELIZES
+                        </strong></h5>
+                    <hr style="width: 55px; margin-left: 570px; background-color: #F6C915;"> <!-- linha amarela  -->
+                    <p style="font-size: 20px; text-align: justify; margin-left: 20px; margin-right: 445px;">
+                        Nossa fazenda sempre procura dar o melhor para nossos clientes, desde a ótima qualidade da nossa
+                        produção e até o jeito que fazemos negócios. A satisfação do cliente é o nosso cartão de visita,
+                        por nisso sempre fazemos questão de registrar nossa marca a cada negócio.
+
+                    </p>
+                </div>
+
+                <br><br><br><br><br><!-- DAR ESPAÇO ENTRE OS CARDS  -->
+
+                <div class="check3">
+
+                    <img src="img/CHECK3-GRANEL.png" alt="Imagem Ansiedade" class="imgcheck3" width="388"
+                        style="float: left;">
+
+                </div>
+
+                <br><br><br> <!-- DESCER O TEXTO PARA O MEIO -->
+
+                <div>
+                    <h5 style="text-align: left; font-size: 40px; color: #116b0e; "> <strong> VENDA A GRANEL</strong>
+                    </h5>
+                    <hr style="width: 55px; margin-left: 445px; background-color: #F6C915;">
+                    <p style="font-size: 20px; text-align: justify; margin-right: 20px;">
+                        Nossa produção e venda também se expande para o a granel, o mesmo destaca- se por diversos
+                        motivos, dentre eles: evitar a contaminação por resíduos, ter a certeza de estar consumindo ou
+                        trabalhando com um alimento frescos, evita desperdício por parte da fazenda na venda e do
+                        cliente na compra, além de ser barato por se tratar de uma produtora.
+                    </p>
+                </div>
+
+                <br><br><br> <!-- DAR ESPAÇO ENTRE OS CARDS  -->
+
+                <!-- class="imgcheck1 col-md-6" style="float: right;" -->
+
+                <!-- <div class="check2">
+                    <p style="font-size: 18px;">Nossa produção e venda também se expande para o a granel, o mesmo destaca- se por diversos motivos, dentre eles: evitar a contaminação por resíduos, ter a certeza de estar consumindo ou trabalhando com um alimento frescos, evita desperdício por parte da fazenda na venda e do cliente na compra, além de ser barato por se tratar de uma produtora.</p>
+                
+                    <img src="img/conflito2.jpg" alt="Imagem Ansiedade" class="imgleft" width="219">
+
+                </div>
+
+                <div class="check3">
+                    <p style="font-size: 18px;">
+
+                        Nossa fazenda sempre procura dar o melhor para nossos clientes da ótima qualidade da nossa produção e até o jeito que fazemos negócios com nossos clientes.
+                    </p>
+    
+                    <img src="img/conflito2.jpg" alt="Imagem Ansiedade" class="imgleft" width="219">
+                </div> -->
+
+                <!-- <p id="card-lista">Conheça nossos diferenciais:</p>
+                <ul id="about-list">
+                    <li><i class="fas fa-check"></i> Trabalho com eficiência</li>
+                    <li><i class="fas fa-check"></i> Funcionários qualificados</li>
+                    <li><i class="fas fa-check"></i> Administração eficiente</li>
+                    <li><i class="fas fa-check"></i> Melhores equipamentos para o processo de produção</li>
+                    <li><i class="fas fa-check"></i> Selo de qualidade</li>
+                    <li><i class="fas fa-check"></i> Confiabilidade e segurança</li>
+                </ul> -->
+
+                <!-- <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- MODELO SLIDE 3 (MDB) -->
+
+
+    <br>
+    <br>
+    
+    
+
+    <!--Newsletter-->
+    <!-- <div id="news-area">
+        <div class="container">
+            <div class="col-md-12">
+                <h3 class="main-title">Fique por dentro das novidades</h3>
+            </div>
+            <p>Assine nossa lista de e-mails, e receba nossos conteúdos sobre desenvolvimento de software</p>
+            <form action="">
+                <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail!">
+                <input type="submit" id="news-btn" value="Inscrever">
+            </form>
+        </div>
+    </div>
+    Call to Action-->
+    <!-- <div id="call-area">
+        <div class="container">
+            <div class="row">
+                <p>Deseja fazer um orçamento sem compromisso?</p>
+                <button class="main-btn" id="call-btn">Orçar</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+ -->
+
+    <!-- TESTE DA FAIXA (BIBI)-->
+    <!-- <div id="call-area">
+        <div class="container">
+            <div class="row">
+                <p>Deseja fazer um orçamento sem compromisso?</p>
+                <button class="main-btn" id="call-btn">Orçar</button>
+            </div>
+        </div>
+    </div> -->
+    <!-- TESTE DA FAIXA (BIBI)-->
+
+
+
+
+    <!-- RODAPÉ -->
+    <footer class="page-footer bg-dark">
+
+        <!-- <div class="bg-success">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="#"><i class="fab fa-facebook-f white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-twitter white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-google-plus-g white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-linkedin-in white-text mr-4"> </i></a>
+                        <a href="#"><i class="fab fa-instagram white-text"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+
+                <div class="col-md-3 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">FUNDADORES</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 118px; height: 2px">
+                    <p class="mt-2" style="text-align: left;"><b> FAMÍLIA VIEIRA </b> <br>
+                        Somos uma produtora agrícola, Localizada o município
+                        de Rio das Flores no estado do Rio de Janeiro. Green Farm, uma empresa que garante grande
+                        qualidade.</p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Produtos</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 90px; height: 2px">
+
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="servicos.html">Café</a></li>
+                        <li class="my-2"><a href="servicos.html">Soja</a></li>
+                        <li class="my-2"><a href="servicos.html">Trigo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Páginas</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="index.html">Home</a></li>
+                        <li class="my-2"><a href="servicos.html">Serviços</a></li>
+                        <li class="my-2"><a href="quemsomos.html">Quem somos</a></li>
+                        <li class="my-2"> <a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mx-auto mb-4">
+                    <h5 class="text-uppercase font-weight-bold">Contato</h5>
+                    <hr class="bg-success mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+                    <ul class="list-unstyled">
+                        <li class="my-2 contato"><a href="contato.html"> <i class="fas fa-home mr-3"></a></i> Rio das Flores - RJ
+                        </li>
+                        <li class="my-2 contato"><a href="contato.html"><i class="fas fa-envelope mr-3"></a></i> fazenda.greenfarm@gmail.com</li>
+                        <li class="my-2 contato"><a href="contato.html"><i class="fas fa-phone mr-3"></a></i> + 55 (21) 99080-7060
+                        </li>
+                        <li class="my-2 contato"><a href="contato.html"><i class="fab fa-instagram mr-3"></a></i> @green.f4rm </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">
+            <!-- <p>&copy; Copyright
+          <a href="#">theprovider.com</a></p> -->
+            <p>Designed by Rural Tech</p>
+        </div>
+    </footer>
+    <!-- RODAPÉ final -->
+
+
+
+</body>
+
+</html>
+
+
+
+<!-- --------------------------------------------------------------------------------------------------------------- -->
+
+
+<!-- TESTES PARA OUTRAS PÁGINAS -->
+
+
+<!-- NOSSOS IDEIAIS -->
+<!-- <div class="col-md-6">
+    <h4 class="about-title">Nossos Ideais</h4>
+    --estamos usando uma class, pq já usamos o h3 e nesse caso o estilo vai ser diferente--
+    <p>Conheça nossos diferenciais:</p>
+    <ul id="about-list">
+        --esses icones a gente pegou no fonts awesome--
+        <li><i class="fas fa-check"></i> Trabalho com eficiência</li>
+        <li><i class="fas fa-check"></i> Funcionários qualificados</li>
+        <li><i class="fas fa-check"></i> Administração eficiente</li>
+        <li><i class="fas fa-check"></i> Melhores equipamentos para o processo de produção</li>
+        <li><i class="fas fa-check"></i> Selo de qualidade</li>
+        <li><i class="fas fa-check"></i> Confiabilidade e segurança</li>
+    </ul>
+</div> -->
